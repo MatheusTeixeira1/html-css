@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+        th, td{
+            border: 1px solid black;
+        }
+        .Nome{
+            background-color: gray;
+        }
+        .Grupo{
+            background-color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="Nome">
+            <col class="Grupo" span="2">
+            <col class="Profis">   
+        </colgroup>
+        <head>
+            <tr>
+                <th>Nome</th><th>Sexo</th><th>idade</th><th>profissão</th>
+            </tr>
+        </head>
+        <tbody>
+            <tr>
+                <td>Ana Maria</td><td>F</td><td>25</td><td>jornalista</td>
+            </tr>
+
+
+            <tr>
+                <td>Cláudio</td><td>M</td><td>28</td><td>Progamador</td>    
+            </tr>
+
+
+            <tr>
+                <td>Gustavo</td><td>M</td><td>42</td><td>Professor</td>
+            </tr>
+
+
+            <tr>
+                <td>Hélio</td><td>M</td><td>19</td><td>Vendedor</td>
+            </tr>
+
+
+            <tr>
+                <td>Maria</td><td>F</td><td>39</td><td>Médica</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
